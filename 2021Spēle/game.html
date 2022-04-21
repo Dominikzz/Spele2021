@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaukto burtu spēle</title>
+  <link rel="StyleSheet" href="Css/game.css">
+</head>
+<body>
+  <div class="timerScore" id="gameDiv">
+    <div class="backdiv"><a class="backbutton" href="Sākums.html">Uz Sākumu</a></div>
+    <div class="timerdiv"><p class="timertext">Laiks:</p><span class="timercss" id="timer">90</span></div>
+    <div class="scorediv"><p class="scoretext">Punkti:</p><span class="scorecss" id="score">0</span></div>
+  </div>
+  <script src="JS/game.js"></script>
+
+  <div class="WordDiv">
+    <p class="Word" id="p1">MPARMGARO</p>
+  </div>
+
+  <input class="atbildecss" id="password" type="text" />
+  <div class="submitdiv">
+    <button class="submit" id="button">Pareizi?</button>
+  </div>
+
+  <script type="module">
+    let password = "programma";
+  
+  function passcheck() {
+      if(document.getElementById('password').value != password) {
+          alert("Nepareizi, mēģini velreiz!");
+      }
+      if(document.getElementById('password').value == password) {
+          pointsClick() 
+          document.getElementById("p1").innerHTML = "SPIZAEGRNIE";
+          password = "pagrieziens"
+      }
+      if(document.getElementById('password').value == password) {
+          pointsClick() 
+          document.getElementById("p1").innerHTML = "ARICEDJAK";
+          password = "redakcija"
+      }
+  }
+  document.getElementById("button").addEventListener("click",event => {
+    passcheck();
+});
+  </script>
+</body>
+</html>

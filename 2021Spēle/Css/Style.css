@@ -1,0 +1,62 @@
+
+.empty {
+  display: block;
+  width: 200px;
+}
+
+.Pempty {
+  color: white;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+  width: 255px;
+  margin:auto;
+  font-weight: bold;
+}
+
+.headerdiv {
+  width: 500px;
+  margin: auto;
+  display: block;
+  background-color: rgb(255, 205, 147);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(170, 170, 170, 0.4);
+}
+
+.logodiv {
+  width: 550px;
+  margin-left: 379px;
+  margin-right: 285px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-size: 68px;
+  font-weight: bold;
+  font-family: 'Indie Flower';
+  text-decoration: none;
+  color: black;
+}
+
+.SāktSpēli {
+  font-size: 30px;
+  font-family: 'Indie Flower';
+  color: white;
+  background-color: rgb(254, 144, 0);
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-decoration: none;
+}
+.Startdiv {
+  text-align: center;
+  display: block;
+}
+.SāktSpēli:hover {
+  opacity: 0.75;
+}

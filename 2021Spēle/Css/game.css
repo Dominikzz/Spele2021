@@ -1,0 +1,125 @@
+
+.timercss {
+  font-size: 40px;
+  font-family: 'Indie Flower';
+}
+.timertext {
+  display: inline-block;
+  font-family: 'Indie Flower';
+  font-size: 40px;
+  margin-right: 12px;
+}
+.timerdiv{
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 280px;
+  margin-bottom: 0px;
+}
+.scorecss {
+  font-size: 40px;
+  font-family: 'Indie Flower';
+}
+.scoretext {
+  display: inline-block;
+  font-family: 'Indie Flower';
+  font-size: 40px;
+  margin-right: 12px;
+}
+.scorediv{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+
+.Word {
+  font-size: 45px;
+  font-family: 'Indie Flower';
+  letter-spacing: 10px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.WordDiv {
+  background-color: rgb(254, 144, 0);
+  width: 600px;
+  box-shadow: 10px 10px 10px rgba(170, 170, 170, 0.4);
+  border-radius: 30px;
+  margin: auto;
+}
+
+.atbildecss {
+  font-size: 15px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  margin: auto;
+  border-color: rgb(0, 0, 0);
+}
+
+.submitdiv {
+  display: block;
+  margin-top: 20px;
+}
+
+.submit {
+  font-family: 'Indie Flower';
+  display: flex;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 10px;
+  border-width: 0px;
+  border-style: solid;
+  text-align: center;
+  color: white;
+  border-color: black;
+  background-color: rgb(254, 144, 0);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  cursor: pointer;
+  box-shadow: 5px 10px 10px rgba(170, 170, 170, 0.4);
+}
+
+.submit:hover {
+  background-color: rgb(253, 187, 82);
+}
+
+#Over {
+  font-family: 'Indie Flower';
+  font-size: 40px;
+  text-align: center;
+  margin: 0px;
+}
+
+.backdiv {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.backbutton {
+  font-size: 25px;
+  font-family: 'Indie Flower';
+  color: white;
+  background-color: rgb(254, 144, 0);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 5px 10px 10px rgba(170, 170, 170, 0.4);
+}
+
+.backbutton:hover {
+  opacity: 0.75;
+}

@@ -1,0 +1,25 @@
+
+.header a {
+  font-family: 'Indie Flower';
+  float: Right;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.Sākums {
+  background-color: rgb(254, 144, 0);
+  color: white;
+}
+
+.Noteikumi:hover {
+  background-color: rgb(255, 221, 165);
+  }
+
+.Noteikumi {
+  color: black;
+}
